@@ -1,0 +1,17 @@
+{
+	"name": "Get Up and Eat",
+	"version": "0.0.1",
+	"manifest_version": 2,
+	"description": "A chrome extension aimed towards users who sit for long periods of time.",
+	"app": {
+		"background": {
+			"scripts": ["main.js"]
+		}
+	},
+	"permissions": [
+		"storage",
+		"notifications",
+		"fullscreen",
+		"<all_urls>"
+	]
+}
