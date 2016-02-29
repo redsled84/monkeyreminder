@@ -3,15 +3,8 @@
 	"version": "0.0.1",
 	"manifest_version": 2,
 	"description": "A chrome extension aimed towards users who sit for long periods of time.",
-	"app": {
-		"background": {
-			"scripts": ["main.js"]
-		}
+	"chrome_url_overrides": {
+		"newtab": "tab.html"
 	},
-	"permissions": [
-		"storage",
-		"notifications",
-		"fullscreen",
-		"<all_urls>"
-	]
+	"options_page": "options.html"
 }
